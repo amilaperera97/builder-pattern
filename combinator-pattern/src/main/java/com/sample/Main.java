@@ -4,11 +4,16 @@ import java.time.LocalDate;
 
 import static com.sample.CustomerRegistrationValidator.*;
 
+
 public class Main {
     public static void main(String[] args) {
 
-        Customer customerInfo =  new Customer("Amila",
-                LocalDate.of(1995,06,26),
+
+    }
+
+    public void combi() {
+        Customer customerInfo = new Customer("Amila",
+                LocalDate.of(1995, 06, 26),
                 "amilap@gmail.com",
                 "+4478");
 
